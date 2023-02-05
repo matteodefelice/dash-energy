@@ -1,0 +1,39 @@
+/* body {
+    background-color: #FFFFFF;
+    color: #111111;
+    font-family: 'Quicksand', cursive;
+    margin: 40px 80px;
+}
+
+.tab {
+    background-color: "#FFFFFF";
+    padding: 10px !important;
+}
+
+#date {
+    font-size: 14px;
+    padding:0;
+}
+
+
+h4 {
+    margin: 20px;
+    font-size: 30px;
+}
+h3 {
+    margin: 40px;
+    font-size: 15px;
+}
+p {
+    margin: 5px;
+} */
+
+#date {
+    font-size: 16px;
+    padding:0;
+}
+
+.form-control {
+    font-size: 16px;
+    padding:0;
+}
