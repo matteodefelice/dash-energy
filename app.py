@@ -115,7 +115,7 @@ def update_line_chart(countries, start_date, ndays, type_plot):
     
     df = (ld[countries])
     max_total = df.max()
-    start_date = pd.Timestamp(start_date).tz_localize('UTC')
+    start_date = pd.Timestamp(start_date) #.tz_localize('UTC')
     end_date = start_date + pd.Timedelta(days = int(ndays))
     
     df = df.loc[start_date:end_date].compute()
@@ -152,4 +152,4 @@ def update_line_chart(countries, start_date, ndays, type_plot):
 
 
 if __name__ == '__main__':
-    dash_app.run_server(debug=True)
+    dash_app.run(debug=True, port = '80')
