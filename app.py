@@ -152,4 +152,4 @@ def update_line_chart(countries, start_date, ndays, type_plot):
 
 
 if __name__ == '__main__':
-    dash_app.run(debug=True, port = '80')
+    dash_app.run(debug=True, host = "0.0.0.0", port = '80')
